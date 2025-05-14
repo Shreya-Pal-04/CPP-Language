@@ -2,11 +2,11 @@
 using namespace std;
 
 main(){
-	 int i,j;
-	 
-	 for(i=1; i<=7; i++){
+	int i,j;
+	
+	for(i=1; i<=7; i++){
 		for(j=1; j<=7; j++){
-			if(j==1 || (j==7 && i<5) || i==1 || i==4){
+			if(i==1 || i==3 || j==1 || j==7){
 				cout<<"*"<<" ";
 			}else{
 				cout<<" "<<" ";
