@@ -13,7 +13,6 @@ main(){
 	for(i=0; i<n; i++){
 		if(a[i]<0){
 			cout<<"Negative number from the array:"<<a[i]<<" ";
-			i++;
 		}
 	}
 }

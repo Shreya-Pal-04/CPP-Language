@@ -12,7 +12,7 @@ main(){
 	}
 	for(i=0; i<n; i++){
 		if(a[i]%2==0){
-			cout<<"Even numbers: "<<a[i]<<" ";
+			cout<<a[i]<<" ";
 		}
 	}
 }
