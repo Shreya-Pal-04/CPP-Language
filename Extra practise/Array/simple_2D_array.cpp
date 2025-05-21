@@ -2,7 +2,7 @@
 using namespace std;
 
 main(){
-	int row,col,i,j,a[i][j];
+	int row,col,i,j,a[50][50];
 	
 	cout<<"Enter number of rows:";
 	cin>>row;
@@ -13,7 +13,8 @@ main(){
 	for(i=0; i<row; i++){
 		for(j=0; j<col; j++){
 			cin>>a[i][j];
-		} cout<<endl;
+		} 
+	
 	}
 	for(i=0; i<row; i++){
 		for(j=0; j<col; j++){
