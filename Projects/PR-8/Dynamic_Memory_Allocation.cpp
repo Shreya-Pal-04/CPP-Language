@@ -45,7 +45,7 @@ class LinkedList{
 				}
 			}
 			void update(int position,int newData){
-				if(position <0 || position >=count){
+				if(position < 0 || position >=count){
 					cout<<"--- Invalid Position ---"<<endl;
 					return;
 				}
